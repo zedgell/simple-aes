@@ -9,7 +9,7 @@ A simple AES256-ctr based off the [node-aes256 package](https://github.com/James
 -------------
 
 ```rust
-use simple_aes::{encypt, decrypt};
+use simple_aes::{encrypt, decrypt};
 
 fn main() {
     // Key can be any length since it will be SHA256 hashed
