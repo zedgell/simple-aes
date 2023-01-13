@@ -1,0 +1,17 @@
+[package]
+name = "simple-aes"
+version = "1.0.0"
+edition = "2021"
+license = "MIT"
+homepage = "https://github.com/zedgell/simple-aes256"
+repository = "https://github.com/zedgell/simple-aes256"
+description = "A simple to use AES256-ctr encypter and decrypter based of the npm package(aes256)"
+authors = ["Zachary Edgell <zacharyedgell@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+openssl = "0.10.44"
+sha2 = "0.10.6"
+base64 = "0.20.0"
+rand = "0.8.5"
